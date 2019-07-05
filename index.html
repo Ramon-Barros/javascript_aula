@@ -4,12 +4,21 @@
     </head>
     <body>
         <script>
-            function soma(numero1, numero2) {
-                var resultado = numero1 + numero2;
-                return resultado;
-            }
-            var resultado = soma(22, 4);
-            console.log(resultado);
+
+           function pares(x,y) {
+
+               for(var i = x; i<=y; i++){
+                   if( i % 5 == 0 ) {
+                       console.log(i);
+                   }
+               }
+               return 0;
+           }
+           var resultado = pares(0,101);
+           console.log(resultado);
+
+
+            
         </script>
     </body>
 </html>
